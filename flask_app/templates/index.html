@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<title>Juego de Numeros</title>
+</head>
+<body class="container mt-5">
+	<h1 class="text-center">¡Bienvenido al Gran Juego de los Números!</h1>
+	<h3 class="text-center">Estoy pensando en un número entre 1 y 100</h3>
+	<h3 class="text-center">¡Adivinenlo!</h3>
+	{% block adivinar %} {% endblock %}
+	{% block bajo %} {% endblock %}
+	{% block alto %} {% endblock %}
+	{% block adivinaste %} {% endblock %}
+</body>
+</html>
